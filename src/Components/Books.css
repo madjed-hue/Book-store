@@ -1,0 +1,23 @@
+.books {
+  background-color: #fff;
+  overflow: hidden;
+}
+.books .content {
+  display: flex;
+}
+.books .content .books__aside,
+.books .content .books__body {
+  padding: 10px 15px;
+}
+.books .content .books__aside {
+  width: 15%;
+  margin-right: 1%;
+}
+.books .content .books__body {
+  flex: 1;
+}
+@media (max-width: 768px) {
+  .books .content {
+    flex-direction: column;
+  }
+}

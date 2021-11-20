@@ -1,0 +1,39 @@
+.content {
+  display: flex;
+}
+
+.content h1 {
+  font-size: 28px;
+  letter-spacing: 1.1px;
+}
+.content p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.content .img__container {
+  text-align: center;
+}
+.content p > a {
+  text-decoration: none;
+  color: #b2395b;
+}
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+  .content h1 {
+    font-size: 22px;
+    letter-spacing: inherit;
+    line-height: 1.5;
+  }
+  .content p {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  .content .img__container {
+    text-align: center;
+  }
+  .content .thebooks__info {
+    flex: 1;
+  }
+}

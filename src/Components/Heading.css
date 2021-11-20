@@ -1,0 +1,29 @@
+.heading {
+  text-align: center;
+  background: #eee;
+}
+
+.heading h1 {
+  font-size: 30px;
+  color: #030d44;
+  margin: 0.67em 0;
+}
+.heading h1,
+.heading h2 {
+  font-weight: 300;
+}
+
+.heading h2 {
+  color: #b2395b;
+}
+@media (max-width: 768px) {
+  .heading {
+    width: 100%;
+  }
+  .heading h1 {
+    font-size: 25px;
+  }
+  .heading h2 {
+    font-size: 22px;
+  }
+}

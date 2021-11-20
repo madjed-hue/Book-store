@@ -1,0 +1,30 @@
+.books__card .content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 90%;
+}
+.books__card .content .books__card__heading {
+  width: 95%;
+}
+.books__card .content h2 {
+  color: #b2b5b0;
+}
+.par {
+  width: 100%;
+  border-bottom: 1px dashed #ccc;
+  line-height: 0.1em;
+  white-space: nowrap;
+  color: #b2b5b0;
+}
+.par span {
+  background: #fff;
+  padding-right: 20px;
+  font-weight: 500;
+}
+.books__card .content .theCards {
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
